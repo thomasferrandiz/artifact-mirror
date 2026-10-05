@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/rancher/artifact-mirror/internal/config"
-	"go.yaml.in/yaml/v3"
+	"gopkg.in/yaml.v3"
 )
 
 const helmRepoName = "artifact-mirror-tools-temp"
